@@ -176,7 +176,8 @@ ul.row {
     list-style: none;
 }
 
-[class^="col-"] {
+[class^="col-"],
+[class*=" col-"] {
     float: left;
     padding: 0.5rem;
 }
