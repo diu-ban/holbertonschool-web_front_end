@@ -297,6 +297,20 @@ ul.row {
     height: 10rem;
 }
 
+.card-testimonial .card-quote {
+    position: relative;
+}
+
+.card-testimonial .card-quote::before {
+    content: "\201C";
+    position: absolute;
+    top: -4.5rem;
+    left: -1rem;
+    color: #efeded;
+    font-size: 10rem;
+    z-index: -1;
+}
+
 .card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
@@ -308,11 +322,11 @@ ul.row {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    bottom: 0;
+    vertical-align: bottom;
 }
 
 .card-work .card-inner {
