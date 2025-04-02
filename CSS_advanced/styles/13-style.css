@@ -33,12 +33,13 @@ html {
     --section-title-color: var(--color-black);
 }
 
-body, a[href] {
+body{
     color: var(--text-color);
 }
 
 a[href] {
     text-decoration: none;
+    color: var(--text-color);
 }
 
 a[href]:visited {
