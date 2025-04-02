@@ -1,3 +1,5 @@
+@import url("normalize.css");
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -33,23 +35,28 @@ html {
     --section-title-color: var(--color-black);
 }
 
-body, a[href] {
+body{
     color: var(--text-color);
 }
 
-a[href] {
+a:link {
     text-decoration: none;
+    color: var(--text-color);
 }
 
 a[href]:visited {
     font-style: italic;
 }
 
-a[href]:hover {
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
     background-color: var(--color-light-grey);
 }
 
